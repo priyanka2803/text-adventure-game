@@ -88,7 +88,7 @@ public class AdventureGame
 	}
 	public void setInitialStoryLine()
 	{
-		gui.jta.append("Welcome to Gurvinders Adventure Game\n");
+		gui.jta.append("Welcome to Adventure Game\n");
 		gui.jta.append("To reach your Destination Get Started\n");
 
 		ObstacleHandlingChoice choice1 = new ObstacleHandlingChoiceImpl("1. Brittle Bridge that breaks with weight\n\n","Brittle bridge, as the name suggests,\n can be broken easily, and that is what has really happened.",1,1);
@@ -99,7 +99,7 @@ public class AdventureGame
 		gui.setObstacle(obstacle);
 
 		/*
-		gui.jta.append("Welcome to Gurvinders Adventure Game\n");
+		gui.jta.append("Welcome to Adventure Game\n");
 		gui.jta.append("To reach your Destination Get Started\n");	
 		gui.jta.append("\n\n 1. Cruise through the Land\n");
 		gui.jta.append("\n\n 2. Swim through the Occean\n");
